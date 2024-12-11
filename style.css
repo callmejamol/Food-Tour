@@ -1,0 +1,51 @@
+*{
+    text-decoration: none;
+}
+body{
+    margin: 0;
+}
+.navbar {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: orange; 
+    color: white;
+    padding: 10px 40px; 
+    
+}
+
+.navdiv{
+    display: flex; align-items: center; justify-content: space-between;
+}
+
+.logo a{
+    font-family: Calibri ;font-size: 80px; font-weight: 600; color: white;
+}
+
+.navbar ul {
+    font-size: 0;
+}
+
+li{
+    list-style: non; display: inline-block;
+}
+
+li a {
+    margin-right: 0px;
+    color: white;
+    font-size: 24px;
+    border-left: 1px solid white;
+    transition: background-color 0.3s ease;
+    padding: 46px 62px;
+}
+
+li a:hover {
+    background-color: #ff6600; /* Changes background color on hover */
+    cursor: pointer; /* Changes the cursor to a pointer to show the item is clickable */
+}
+
+.image{
+    position: relative;
+    right: 120px;
+}
